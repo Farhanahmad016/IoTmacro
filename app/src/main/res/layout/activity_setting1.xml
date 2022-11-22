@@ -24,7 +24,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="14dp"
         android:layout_marginTop="58dp"
-        android:src="@drawable/Vector" />
+        android:src="@drawable/vector" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -35,7 +35,7 @@
         android:layout_marginStart="47dp"
         android:layout_marginTop="259dp"
         android:layout_marginEnd="70dp"
-        android:src="@drawable/Rectangle1" />
+        android:src="@drawable/rectangle1" />
 
 
     <ImageView
@@ -48,7 +48,7 @@
         android:layout_marginStart="47dp"
         android:layout_marginEnd="70dp"
         android:layout_marginBottom="380dp"
-        android:src="@drawable/Rectangle1" />
+        android:src="@drawable/rectangle1" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -57,7 +57,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="47dp"
         android:layout_marginTop="443dp"
-        android:src="@drawable/Rectangle1" />
+        android:src="@drawable/rectangle1" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -68,7 +68,7 @@
         android:layout_marginStart="46dp"
         android:layout_marginTop="184dp"
         android:layout_marginEnd="70dp"
-        android:src="@drawable/Rectangle1" />
+        android:src="@drawable/rectangle1" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -79,7 +79,7 @@
         android:layout_marginStart="46dp"
         android:layout_marginEnd="70dp"
         android:layout_marginBottom="198dp"
-        android:src="@drawable/Rectangle1" />
+        android:src="@drawable/rectangle1" />
 
     <ImageView
         android:layout_width="50dp"
@@ -88,7 +88,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="208dp"
         android:layout_marginEnd="67dp"
-        android:src="@drawable/Group" />
+        android:src="@drawable/toggle" />
 
     <ImageView
         android:layout_width="50dp"
@@ -97,7 +97,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="294dp"
         android:layout_marginEnd="67dp"
-        android:src="@drawable/Group" />
+        android:src="@drawable/toggle" />
 
     <ImageView
         android:layout_width="20dp"
