@@ -24,7 +24,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="14dp"
         android:layout_marginTop="58dp"
-        android:src="@drawable/Vector" />
+        android:src="@drawable/vector" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -33,7 +33,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="46dp"
         android:layout_marginTop="227dp"
-        android:src="@drawable/Rectangle1" />
+        android:src="@drawable/rectangle1" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -42,7 +42,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="46dp"
         android:layout_marginTop="334dp"
-        android:src="@drawable/Rectangle1" />
+        android:src="@drawable/rectangle1" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -51,7 +51,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="46dp"
         android:layout_marginBottom="290dp"
-        android:src="@drawable/Rectangle1" />
+        android:src="@drawable/rectangle1" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -60,7 +60,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="46dp"
         android:layout_marginBottom="197dp"
-        android:src="@drawable/Rectangle1" />
+        android:src="@drawable/rectangle1" />
 
     <Button
         android:layout_width="wrap_content"
@@ -90,7 +90,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="258dp"
         android:layout_marginEnd="65dp"
-        android:src="@drawable/Group" />
+        android:src="@drawable/toggle" />
 
     <ImageView
         android:layout_width="20dp"
@@ -208,4 +208,4 @@
         android:textSize="15dp" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
