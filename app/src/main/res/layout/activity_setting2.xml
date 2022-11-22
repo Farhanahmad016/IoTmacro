@@ -5,16 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/greyColor"
-    tools:context=".Setting1Activity">
+    tools:context=".Setting2Activity">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="53dp"
         android:layout_marginTop="2dp"
+        android:layout_marginEnd="19dp"
         android:src="@drawable/gambar2" />
 
     <ImageView
@@ -31,109 +31,36 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="47dp"
-        android:layout_marginTop="259dp"
-        android:layout_marginEnd="70dp"
-        android:src="@drawable/Rectangle1" />
-
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="47dp"
-        android:layout_marginEnd="70dp"
-        android:layout_marginBottom="380dp"
-        android:src="@drawable/Rectangle1" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="47dp"
-        android:layout_marginTop="443dp"
-        android:src="@drawable/Rectangle1" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
         android:layout_marginStart="46dp"
-        android:layout_marginTop="184dp"
-        android:layout_marginEnd="70dp"
+        android:layout_marginTop="227dp"
         android:src="@drawable/Rectangle1" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="334dp"
+        android:src="@drawable/Rectangle1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="46dp"
-        android:layout_marginEnd="70dp"
-        android:layout_marginBottom="198dp"
+        android:layout_marginBottom="290dp"
         android:src="@drawable/Rectangle1" />
 
     <ImageView
-        android:layout_width="50dp"
-        android:layout_height="40dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="208dp"
-        android:layout_marginEnd="67dp"
-        android:src="@drawable/Group" />
-
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="40dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="294dp"
-        android:layout_marginEnd="67dp"
-        android:src="@drawable/Group" />
-
-    <ImageView
-        android:layout_width="20dp"
-        android:layout_height="30dp"
-        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="65dp"
-        android:layout_marginBottom="568dp"
-        android:src="@drawable/rectangle2" />
-
-    <ImageView
-        android:layout_width="20dp"
-        android:layout_height="30dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="65dp"
-        android:layout_marginBottom="322dp"
-        android:src="@drawable/rectangle2" />
-
-    <ImageView
-        android:layout_width="20dp"
-        android:layout_height="30dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="65dp"
-        android:layout_marginBottom="234dp"
-        android:src="@drawable/rectangle2" />
-
-    <ImageView
-        android:layout_width="20dp"
-        android:layout_height="30dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="65dp"
-        android:layout_marginBottom="145dp"
-        android:src="@drawable/rectangle2" />
+        android:layout_marginStart="46dp"
+        android:layout_marginBottom="197dp"
+        android:src="@drawable/Rectangle1" />
 
     <Button
         android:layout_width="wrap_content"
@@ -142,10 +69,55 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="24dp"
         android:width="350dp"
-        android:background="@drawable/redbutton_shape"
+        android:background="@color/redcolor"
         android:text="Save"
         android:textColor="@color/whiteColor"
-        android:textSize="16dp" />
+        android:textSize="16dp"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="137dp"
+        android:layout_marginEnd="65dp"
+        android:src="@drawable/rectangle2" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="258dp"
+        android:layout_marginEnd="65dp"
+        android:src="@drawable/Group" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="334dp"
+        android:src="@drawable/rectangle2" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="236dp"
+        android:src="@drawable/rectangle2" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="137dp"
+        android:src="@drawable/rectangle2" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -154,7 +126,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="108dp"
         android:layout_marginTop="50dp"
-        android:text="General Setting"
+        android:text="Device Setting"
         android:textColor="@color/whiteColor"
         android:textSize="27dp" />
 
@@ -164,8 +136,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="115dp"
-        android:text="Language"
+        android:layout_marginTop="95dp"
+        android:text="DND Mode"
         android:textColor="@color/whiteColor"
         android:textSize="18dp" />
 
@@ -175,63 +147,52 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="203dp"
-        android:text="Sound"
+        android:layout_marginTop="253dp"
+        android:text="Notification"
         android:textColor="@color/whiteColor"
         android:textSize="18dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="339dp"
+        android:text="Vacuum time zone"
+        android:textColor="@color/whiteColor"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="236dp"
+        android:text="Sound setting"
+        android:textColor="@color/whiteColor"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="137dp"
+        android:text="Emergency sound"
+        android:textColor="@color/whiteColor"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="241dp"
+        android:layout_height="87dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="278dp"
-        android:text="Mode"
-        android:textColor="@color/whiteColor"
-        android:textSize="18dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginBottom="340dp"
-        android:text="Profile Setting"
-        android:textColor="@color/whiteColor"
-        android:textSize="18dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginBottom="247dp"
-        android:text="Help Center"
-        android:textColor="@color/whiteColor"
-        android:textSize="18dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginBottom="160dp"
-        android:text="Privacy Policy"
-        android:textColor="@color/whiteColor"
-        android:textSize="18dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="152dp"
-        android:text="English"
+        android:layout_marginTop="130dp"
+        android:text="When actived, the vacuum mop will not continue cleaning automatically for a set period. however, cleaning of the schedule will still be carried out durring the dnd period "
         android:textColor="@color/greenColor"
         android:textSize="15dp" />
 
@@ -241,54 +202,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="234dp"
+        android:layout_marginTop="288dp"
         android:text="On"
         android:textColor="@color/greenColor"
         android:textSize="15dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="317dp"
-        android:text="Dark"
-        android:textColor="@color/greenColor"
-        android:textSize="15dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginBottom="299dp"
-        android:text="Edit now"
-        android:textColor="@color/greenColor"
-        android:textSize="15dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginBottom="213dp"
-        android:text="Click it if you have any help"
-        android:textColor="@color/greenColor"
-        android:textSize="15dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginBottom="120dp"
-        android:text="Read it to make sure your understanding"
-        android:textColor="@color/greenColor"
-        android:textSize="15dp" />
-
-
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
