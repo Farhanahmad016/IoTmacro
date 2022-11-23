@@ -13,6 +13,20 @@
         android:theme="@style/Theme.IotMacroChallange"
         tools:targetApi="31">
         <activity
+            android:name=".ScheduleActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ScedulejamActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Home1Activity"
             android:exported="false">
             <meta-data
