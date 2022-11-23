@@ -3,9 +3,9 @@ package com.example.iotmacrochallange
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class Setting1Activity : AppCompatActivity() {
+class GeneralSettingActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_setting1)
+        setContentView(R.layout.general_setting)
     }
 }
