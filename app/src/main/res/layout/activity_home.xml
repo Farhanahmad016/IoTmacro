@@ -4,16 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/greyColor"
-    tools:context=".Home1Activity">
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="17dp"
-        android:src="@drawable/gambar2" />
+    android:background="@color/dark_blue"
+    tools:context=".HomeActivity">
 
     <ImageView
         android:layout_width="400dp"

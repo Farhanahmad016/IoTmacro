@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/greyColor"
+    android:background="@color/dark_blue"
     tools:context=".Setting2Activity">
 
     <ImageView
@@ -69,9 +69,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="24dp"
         android:width="350dp"
-        android:background="@color/redcolor"
+        android:background="@color/red"
         android:text="Save"
-        android:textColor="@color/whiteColor"
+        android:textColor="@color/white"
         android:textSize="16dp"/>
 
     <ImageView
@@ -127,7 +127,7 @@
         android:layout_marginStart="108dp"
         android:layout_marginTop="50dp"
         android:text="Device Setting"
-        android:textColor="@color/whiteColor"
+        android:textColor="@color/white"
         android:textSize="27dp" />
 
     <TextView
@@ -138,7 +138,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="95dp"
         android:text="DND Mode"
-        android:textColor="@color/whiteColor"
+        android:textColor="@color/white"
         android:textSize="18dp" />
 
     <TextView
@@ -149,7 +149,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="253dp"
         android:text="Notification"
-        android:textColor="@color/whiteColor"
+        android:textColor="@color/white"
         android:textSize="18dp" />
 
     <TextView
@@ -160,7 +160,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginBottom="339dp"
         android:text="Vacuum time zone"
-        android:textColor="@color/whiteColor"
+        android:textColor="@color/white"
         android:textSize="18dp" />
 
     <TextView
@@ -171,7 +171,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginBottom="236dp"
         android:text="Sound setting"
-        android:textColor="@color/whiteColor"
+        android:textColor="@color/white"
         android:textSize="18dp" />
 
     <TextView
@@ -182,7 +182,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginBottom="137dp"
         android:text="Emergency sound"
-        android:textColor="@color/whiteColor"
+        android:textColor="@color/white"
         android:textSize="18dp" />
 
     <TextView
@@ -193,7 +193,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="130dp"
         android:text="When actived, the vacuum mop will not continue cleaning automatically for a set period. however, cleaning of the schedule will still be carried out durring the dnd period "
-        android:textColor="@color/greenColor"
+        android:textColor="@color/grey"
         android:textSize="15dp" />
 
     <TextView
@@ -204,7 +204,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="288dp"
         android:text="On"
-        android:textColor="@color/greenColor"
+        android:textColor="@color/grey"
         android:textSize="15dp" />
 
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/greyColor"
+    android:background="@color/dark_blue"
     tools:context=".RegisterActivity">
 
     <ImageView
@@ -19,7 +19,7 @@
         android:layout_marginTop="91dp"
         android:layout_marginEnd="108dp"
         android:layout_marginBottom="510dp"
-        android:src="@drawable/gambar1" />
+        android:src="@drawable/logo" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -57,7 +57,7 @@
         android:layout_marginEnd="44dp"
         android:background="@drawable/rounded_corner"
         android:text="Enter username"
-        android:textColor="@color/greenColor"
+        android:textColor="@color/grey"
         android:textSize="25dp" />
 
     <TextView
@@ -73,7 +73,7 @@
         android:layout_marginBottom="360dp"
         android:background="@drawable/rounded_corner"
         android:text="Enter password"
-        android:textColor="@color/greenColor"
+        android:textColor="@color/grey"
         android:textSize="25dp" />
 
     <TextView
@@ -88,7 +88,7 @@
         android:layout_marginBottom="305dp"
         android:background="@drawable/rounded_corner"
         android:text="Confirm password"
-        android:textColor="@color/greenColor"
+        android:textColor="@color/grey"
         android:textSize="25dp" />
 
     <TextView
@@ -103,7 +103,7 @@
         android:layout_marginBottom="246dp"
         android:background="@drawable/rounded_corner"
         android:text="Enter your email"
-        android:textColor="@color/greenColor"
+        android:textColor="@color/grey"
         android:textSize="25dp" />
 
     <TextView
@@ -113,7 +113,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="209dp"
         android:text="I aggree the user protocol and privacy policy"
-        android:textColor="@color/whiteColor"
+        android:textColor="@color/white"
         android:textSize="15dp" />
 
     <TextView
@@ -124,7 +124,7 @@
         android:layout_marginStart="100dp"
         android:layout_marginBottom="54dp"
         android:text="Have an account?"
-        android:textColor="@color/whiteColor"
+        android:textColor="@color/white"
         android:textSize="16dp" />
 
     <TextView
@@ -135,7 +135,7 @@
         android:layout_marginEnd="141dp"
         android:layout_marginBottom="53dp"
         android:text="Login"
-        android:textColor="@color/blueColor"
+        android:textColor="@color/blue"
         android:textSize="17dp" />
 
     <Button
@@ -149,7 +149,7 @@
         android:layout_marginBottom="118dp"
         android:background="@drawable/button_shape"
         android:text="Register"
-        android:textColor="@color/whiteColor"
+        android:textColor="@color/white"
         android:textSize="20dp"/>
 
 
