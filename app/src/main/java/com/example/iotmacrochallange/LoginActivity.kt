@@ -20,5 +20,33 @@ class LoginActivity : AppCompatActivity() {
 
             startActivity(intent)
         }
+
+        binding.btnSkip.setOnClickListener {
+            val intent = Intent(this, HomeActivity::class.java)
+
+            startActivity(intent)
+            finish()
+        }
+
+        binding.btnLogin.setOnClickListener {
+            val intent = Intent(this, HomeActivity::class.java)
+
+            startActivity(intent)
+            finish()
+        }
+
+        binding.btnGoogle.setOnClickListener {
+            val intent = Intent(this, HomeActivity::class.java)
+
+            startActivity(intent)
+            finish()
+        }
+
+        binding.btnFacebook.setOnClickListener {
+            val intent = Intent(this, HomeActivity::class.java)
+
+            startActivity(intent)
+            finish()
+        }
     }
 }
