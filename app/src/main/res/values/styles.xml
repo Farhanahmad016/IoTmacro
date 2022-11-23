@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.IotMacroChallange" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@color/greyColor</item>
-        <item name="colorPrimary">@color/blueColor</item>
-        <item name="colorPrimary">@color/blackColor</item>
-        <item name="colorAccent">@color/whiteColor</item>
-        <item name="colorAccent">@color/greenColor</item>
+    <style name="Theme.IotMacroChallenge" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/dark_blue</item>
+        <item name="colorAccent">@color/grey</item>
+        <item name="android:buttonStyle">@style/Button</item>
     </style>
+
+    <style name="Button" parent="Widget.AppCompat.Button">
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+
 </resources>

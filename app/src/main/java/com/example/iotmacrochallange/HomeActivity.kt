@@ -3,9 +3,9 @@ package com.example.iotmacrochallange
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class Home1Activity : AppCompatActivity() {
+class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home1)
+        setContentView(R.layout.activity_home)
     }
 }

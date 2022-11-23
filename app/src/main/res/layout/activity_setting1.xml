@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/greyColor"
+    android:background="@color/dark_blue"
     tools:context=".Setting1Activity">
 
     <ImageView
@@ -144,7 +144,7 @@
         android:width="350dp"
         android:background="@drawable/redbutton_shape"
         android:text="Save"
-        android:textColor="@color/whiteColor"
+        android:textColor="@color/white"
         android:textSize="16dp" />
 
     <TextView
@@ -155,7 +155,7 @@
         android:layout_marginStart="108dp"
         android:layout_marginTop="50dp"
         android:text="General Setting"
-        android:textColor="@color/whiteColor"
+        android:textColor="@color/white"
         android:textSize="27dp" />
 
     <TextView
@@ -166,7 +166,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="115dp"
         android:text="Language"
-        android:textColor="@color/whiteColor"
+        android:textColor="@color/white"
         android:textSize="18dp" />
 
     <TextView
@@ -177,7 +177,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="203dp"
         android:text="Sound"
-        android:textColor="@color/whiteColor"
+        android:textColor="@color/white"
         android:textSize="18dp" />
 
     <TextView
@@ -188,7 +188,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="278dp"
         android:text="Mode"
-        android:textColor="@color/whiteColor"
+        android:textColor="@color/white"
         android:textSize="18dp" />
 
     <TextView
@@ -199,7 +199,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginBottom="340dp"
         android:text="Profile Setting"
-        android:textColor="@color/whiteColor"
+        android:textColor="@color/white"
         android:textSize="18dp" />
 
     <TextView
@@ -210,7 +210,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginBottom="247dp"
         android:text="Help Center"
-        android:textColor="@color/whiteColor"
+        android:textColor="@color/white"
         android:textSize="18dp" />
 
     <TextView
@@ -221,7 +221,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginBottom="160dp"
         android:text="Privacy Policy"
-        android:textColor="@color/whiteColor"
+        android:textColor="@color/white"
         android:textSize="18dp" />
 
     <TextView
@@ -232,7 +232,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="152dp"
         android:text="English"
-        android:textColor="@color/greenColor"
+        android:textColor="@color/grey"
         android:textSize="15dp" />
 
     <TextView
@@ -243,7 +243,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="234dp"
         android:text="On"
-        android:textColor="@color/greenColor"
+        android:textColor="@color/grey"
         android:textSize="15dp" />
 
     <TextView
@@ -254,7 +254,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="317dp"
         android:text="Dark"
-        android:textColor="@color/greenColor"
+        android:textColor="@color/grey"
         android:textSize="15dp" />
 
     <TextView
@@ -265,7 +265,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginBottom="299dp"
         android:text="Edit now"
-        android:textColor="@color/greenColor"
+        android:textColor="@color/grey"
         android:textSize="15dp" />
 
     <TextView
@@ -276,7 +276,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginBottom="213dp"
         android:text="Click it if you have any help"
-        android:textColor="@color/greenColor"
+        android:textColor="@color/grey"
         android:textSize="15dp" />
 
     <TextView
@@ -287,7 +287,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginBottom="120dp"
         android:text="Read it to make sure your understanding"
-        android:textColor="@color/greenColor"
+        android:textColor="@color/grey"
         android:textSize="15dp" />
 
 
