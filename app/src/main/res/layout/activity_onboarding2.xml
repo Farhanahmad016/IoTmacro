@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/greyColor"
+    android:background="@color/dark_blue"
     tools:context=".Onboarding2Activity">
 
     <ImageView
@@ -68,7 +68,7 @@
         android:layout_marginBottom="260dp"
         android:gravity="center"
         android:text="Clean the floor of your house wherever you are"
-        android:textColor="@color/whiteColor"
+        android:textColor="@color/white"
         android:textSize="28dp" />
 
     <Button
@@ -79,7 +79,7 @@
         android:layout_marginBottom="91dp"
         android:background="@drawable/button_shape"
         android:text="Continue"
-        android:textColor="@color/whiteColor"
+        android:textColor="@color/white"
         android:textSize="20dp"/>
 
 
