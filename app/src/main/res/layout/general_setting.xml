@@ -1,277 +1,240 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/dark_blue"
+    android:padding="24dp"
     tools:context=".GeneralSettingActivity">
 
-    <ImageView
-        android:layout_width="28dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
+    <RelativeLayout
+        android:id="@+id/ab_generalSettings"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="14dp"
-        android:layout_marginTop="58dp" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="47dp"
-        android:layout_marginTop="259dp"
-        android:layout_marginEnd="70dp"/>
-
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="47dp"
-        android:layout_marginEnd="70dp"
-        android:layout_marginBottom="380dp" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <ImageView
-        android:layout_width="wrap_content"
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/back"/>
+
+        <TextView
+            android:id="@+id/tv_generalSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="General Settings"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/gs_item1"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/ab_generalSettings"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="47dp"
-        android:layout_marginTop="443dp"/>
+        android:paddingVertical="8dp">
 
-    <ImageView
-        android:layout_width="wrap_content"
+        <TextView
+            android:id="@+id/tv_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Language"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/tv_language"
+            android:layout_marginTop="4dp"
+            android:text="English"
+            android:textColor="@color/grey"
+            android:textSize="12dp" />
+
+        <Button
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/next"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_alignBottom="@+id/gs_item1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#9CABC2"/>
+
+    <RelativeLayout
+        android:id="@+id/gs_item2"
+        android:layout_below="@+id/gs_item1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="46dp"
-        android:layout_marginTop="184dp"
-        android:layout_marginEnd="70dp"/>
+        android:paddingVertical="8dp">
 
-    <ImageView
-        android:layout_width="wrap_content"
+        <TextView
+            android:id="@+id/tv_sound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Sound"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/tv_sound"
+            android:layout_marginTop="4dp"
+            android:text="On"
+            android:textColor="@color/grey"
+            android:textSize="12dp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_alignBottom="@+id/gs_item2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#9CABC2"/>
+
+    <RelativeLayout
+        android:id="@+id/gs_item3"
+        android:layout_below="@+id/gs_item2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="46dp"
-        android:layout_marginEnd="70dp"
-        android:layout_marginBottom="198dp" />
+        android:paddingVertical="8dp">
 
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="40dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="208dp"
-        android:layout_marginEnd="67dp"
-        android:src="@drawable/toggle" />
+        <TextView
+            android:id="@+id/tv_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Mode"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
 
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="40dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="294dp"
-        android:layout_marginEnd="67dp"
-        android:src="@drawable/toggle" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/tv_mode"
+            android:layout_marginTop="4dp"
+            android:text="Dark"
+            android:textColor="@color/grey"
+            android:textSize="12dp" />
 
-    <ImageView
-        android:layout_width="20dp"
-        android:layout_height="30dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="65dp"
-        android:layout_marginBottom="568dp"
-        android:src="@drawable/rectangle2" />
+    </RelativeLayout>
 
-    <ImageView
-        android:layout_width="20dp"
-        android:layout_height="30dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="65dp"
-        android:layout_marginBottom="322dp"
-        android:src="@drawable/rectangle2" />
+    <View
+        android:layout_alignBottom="@+id/gs_item3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#9CABC2"/>
 
-    <ImageView
-        android:layout_width="20dp"
-        android:layout_height="30dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="65dp"
-        android:layout_marginBottom="234dp"
-        android:src="@drawable/rectangle2" />
+    <RelativeLayout
+        android:id="@+id/gs_item4"
+        android:layout_below="@+id/gs_item3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="8dp">
 
-    <ImageView
-        android:layout_width="20dp"
-        android:layout_height="30dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="65dp"
-        android:layout_marginBottom="145dp"
-        android:src="@drawable/rectangle2" />
+        <TextView
+            android:id="@+id/tv_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Help Center"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/tv_help"
+            android:layout_marginTop="4dp"
+            android:text="Click if you need any help"
+            android:textColor="@color/grey"
+            android:textSize="12dp" />
+
+        <Button
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/next"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_alignBottom="@+id/gs_item4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#9CABC2"/>
+
+    <RelativeLayout
+        android:id="@+id/gs_item5"
+        android:layout_below="@+id/gs_item4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="8dp">
+
+        <TextView
+            android:id="@+id/tv_policy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Privacy Policy"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/tv_policy"
+            android:layout_marginTop="4dp"
+            android:text="Read to make sure your understanding"
+            android:textColor="@color/grey"
+            android:textSize="12dp" />
+
+        <Button
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/next"/>
+
+    </RelativeLayout>
 
     <Button
-        android:layout_width="wrap_content"
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="24dp"
-        android:width="350dp"
-        android:background="@drawable/redbutton_shape"
-        android:text="Save"
+        android:background="@drawable/red_button_shape"
+        android:paddingVertical="12dp"
+        android:text="Logout"
         android:textColor="@color/white"
-        android:textSize="16dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="108dp"
-        android:layout_marginTop="50dp"
-        android:text="General Setting"
-        android:textColor="@color/white"
-        android:textSize="27dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="115dp"
-        android:text="Language"
-        android:textColor="@color/white"
-        android:textSize="18dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="203dp"
-        android:text="Sound"
-        android:textColor="@color/white"
-        android:textSize="18dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="278dp"
-        android:text="Mode"
-        android:textColor="@color/white"
-        android:textSize="18dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginBottom="340dp"
-        android:text="Profile Setting"
-        android:textColor="@color/white"
-        android:textSize="18dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginBottom="247dp"
-        android:text="Help Center"
-        android:textColor="@color/white"
-        android:textSize="18dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginBottom="160dp"
-        android:text="Privacy Policy"
-        android:textColor="@color/white"
-        android:textSize="18dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="152dp"
-        android:text="English"
-        android:textColor="@color/grey"
-        android:textSize="15dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="234dp"
-        android:text="On"
-        android:textColor="@color/grey"
-        android:textSize="15dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="317dp"
-        android:text="Dark"
-        android:textColor="@color/grey"
-        android:textSize="15dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginBottom="299dp"
-        android:text="Edit now"
-        android:textColor="@color/grey"
-        android:textSize="15dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginBottom="213dp"
-        android:text="Click it if you have any help"
-        android:textColor="@color/grey"
-        android:textSize="15dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginBottom="120dp"
-        android:text="Read it to make sure your understanding"
-        android:textColor="@color/grey"
-        android:textSize="15dp" />
-
+        android:textSize="20sp" />
 
 </RelativeLayout>

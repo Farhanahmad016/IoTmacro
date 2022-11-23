@@ -1,5 +1,6 @@
 package com.example.iotmacrochallange
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -28,6 +29,12 @@ class HomeActivity : AppCompatActivity() {
         val adapter = DeviceListAdapter(data)
 
         rvDevice.adapter = adapter
+
+        binding.btnSetting.setOnClickListener {
+            val intent = Intent(this, GeneralSettingActivity::class.java)
+
+            startActivity(intent)
+        }
 
     }
 }
