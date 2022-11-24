@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/dark_blue"
     android:padding="24dp"
-    tools:context=".HomeActivity">
+    tools:context=".DeviceActivity">
 
     <RelativeLayout
         android:id="@+id/ab_device"
@@ -34,7 +34,7 @@
             android:text="Kurumi"/>
 
         <Button
-            android:id="@+id/btnSetting"
+            android:id="@+id/btn_Setting"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_alignParentEnd="true"

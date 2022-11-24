@@ -30,29 +30,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="Maps"
+                android:text="Usage"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
         </RelativeLayout>
 
-        <ImageView
-            android:id="@+id/img_map"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_usage"
             android:layout_marginTop="24dp"
             android:layout_below="@id/ab_usage"
-            android:layout_centerHorizontal="true"
-            android:src="@drawable/map_image"/>
-
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_map"
-            android:layout_marginTop="24dp"
-            android:layout_below="@id/img_map"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:itemCount="5"
-            tools:listitem="@layout/list_map"/>
+            tools:listitem="@layout/list_usage"/>
 
     </RelativeLayout>
 </layout>

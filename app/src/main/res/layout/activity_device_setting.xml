@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/dark_blue"
     android:padding="24dp"
-    tools:context=".GeneralSettingActivity">
+    tools:context=".DeviceSettingActivity">
 
     <RelativeLayout
         android:id="@+id/ab_generalSettings"
@@ -17,18 +17,18 @@
 
         <Button
             android:id="@+id/btnBack"
-            android:layout_alignParentStart="true"
-            android:layout_centerInParent="true"
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:background="@drawable/back"/>
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/back" />
 
         <TextView
-            android:id="@+id/tv_generalSettings"
+            android:id="@+id/tv_deviceSettings"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="General Settings"
+            android:text="Device Settings"
             android:textColor="@color/white"
             android:textSize="20sp" />
     </RelativeLayout>
@@ -43,22 +43,23 @@
         android:paddingVertical="8dp">
 
         <TextView
-            android:id="@+id/tv_language"
+            android:id="@+id/tv_dnd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:text="Language"
+            android:text="DND"
             android:textColor="@color/white"
             android:textSize="16dp" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@id/tv_language"
+            android:layout_below="@id/tv_dnd"
+            android:paddingEnd="72dp"
             android:layout_marginTop="4dp"
-            android:text="English"
+            android:text="When activated, the vacuum mop will not continue cleaning automatically for a set period. however, cleaning of the schedule will still be carried out during the DND period"
             android:textColor="@color/grey"
             android:textSize="12dp" />
 
@@ -90,7 +91,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:text="Sound"
+            android:text="Notification"
             android:textColor="@color/white"
             android:textSize="16dp" />
 
@@ -120,24 +121,21 @@
         android:paddingVertical="8dp">
 
         <TextView
-            android:id="@+id/tv_mode"
+            android:id="@+id/tv_timeZone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:text="Mode"
+            android:layout_centerVertical="true"
+            android:text="Vacuum time zone"
             android:textColor="@color/white"
             android:textSize="16dp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_below="@id/tv_mode"
-            android:layout_marginTop="4dp"
-            android:text="Dark"
-            android:textColor="@color/grey"
-            android:textSize="12dp" />
+        <Button
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/next"/>
 
     </RelativeLayout>
 
@@ -155,24 +153,14 @@
         android:paddingVertical="8dp">
 
         <TextView
-            android:id="@+id/tv_help"
+            android:id="@+id/tv_sound"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:text="Help Center"
+            android:layout_centerVertical="true"
+            android:text="Sound Setting"
             android:textColor="@color/white"
             android:textSize="16dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_below="@id/tv_help"
-            android:layout_marginTop="4dp"
-            android:text="Click if you need any help"
-            android:textColor="@color/grey"
-            android:textSize="12dp" />
 
         <Button
             android:layout_alignParentEnd="true"
@@ -197,24 +185,14 @@
         android:paddingVertical="8dp">
 
         <TextView
-            android:id="@+id/tv_policy"
+            android:id="@+id/tv_emergency"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:text="Privacy Policy"
+            android:layout_centerVertical="true"
+            android:text="Emergency Sound"
             android:textColor="@color/white"
             android:textSize="16dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_below="@id/tv_policy"
-            android:layout_marginTop="4dp"
-            android:text="Read to make sure your understanding"
-            android:textColor="@color/grey"
-            android:textSize="12dp" />
 
         <Button
             android:layout_alignParentEnd="true"
@@ -226,14 +204,14 @@
     </RelativeLayout>
 
     <Button
-        android:id="@+id/btnLogout"
+        android:id="@+id/btnDelete"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="@drawable/red_button_shape"
         android:paddingVertical="12dp"
-        android:text="Logout"
+        android:text="Delete Device"
         android:textColor="@color/white"
         android:textSize="20sp" />
 

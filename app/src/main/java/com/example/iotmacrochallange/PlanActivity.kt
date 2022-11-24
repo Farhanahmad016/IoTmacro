@@ -5,15 +5,16 @@ import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.iotmacrochallange.databinding.ActivityMapBinding
+import com.example.iotmacrochallange.databinding.ActivityPlanBinding
 
-class MapActivity : AppCompatActivity() {
+class PlanActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMapBinding
+    private lateinit var binding: ActivityPlanBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = DataBindingUtil.setContentView(this, R.layout.activity_map)
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_plan)
 
         val map = listOf(
             MapViewModel("Bedroom 1", "Total 32 m²"),
@@ -25,13 +26,13 @@ class MapActivity : AppCompatActivity() {
             MapViewModel("Bedroom 4", "Total 50 m²"),
         )
 
-        val adapter = MapListAdapter(map)
+        val adapter = PlanListAdapter(map)
 
-        val rvMap = binding.rvMap
+        val rvRoom = binding.rvRoom
 
-        rvMap.apply {
+        rvRoom.apply {
             this.adapter = adapter
-            this.layoutManager = LinearLayoutManager(this@MapActivity)
+            this.layoutManager = LinearLayoutManager(this@PlanActivity)
         }
 
         binding.btnBack.setOnClickListener {
