@@ -12,7 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IotMacroChallenge"
         tools:targetApi="31">
-
+        <activity
+            android:name=".DeviceActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".ScheduleActivity"
             android:exported="false">
@@ -34,16 +40,14 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".HomeActivity"
-            android:label="Home"
-            android:exported="false">
+            android:exported="false"
+            android:label="Home">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".Onboarding3Activity"
             android:exported="false">
@@ -51,7 +55,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".Onboarding2Activity"
             android:exported="false">
@@ -59,7 +62,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".Onboarding1Activity"
             android:exported="false">
@@ -67,7 +69,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".SplashActivity"
             android:exported="true"
@@ -78,7 +79,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Setting2Activity"
             android:exported="false">
@@ -86,7 +86,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".GeneralSettingActivity"
             android:exported="false">
@@ -94,7 +93,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".RegisterActivity"
             android:exported="false">
@@ -102,7 +100,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".LoginActivity"
             android:exported="false">

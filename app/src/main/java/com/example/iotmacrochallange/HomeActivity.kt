@@ -3,32 +3,36 @@ package com.example.iotmacrochallange
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.iotmacrochallange.databinding.ActivityHomeBinding
 
-class HomeActivity : AppCompatActivity() {
+class HomeActivity : AppCompatActivity(), DeviceRecyclerClickListener {
 
     private lateinit var binding: ActivityHomeBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivityHomeBinding.inflate(layoutInflater)
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_home)
 
-        setContentView(binding.root)
-
-        val rvDevice = binding.rvDevice
-
-        rvDevice.layoutManager = LinearLayoutManager(this)
-
-        //data dummy
-        val data = ArrayList<DeviceViewModel>()
-        data.add(DeviceViewModel(R.drawable.device_image, "Kurumi", "Status: Cleaning"))
-        data.add(DeviceViewModel(R.drawable.device_image2, "Umeda", "Status: Standby"))
+        val data = listOf(
+            DeviceViewModel(R.drawable.device_image, "Kurumi", "Status: Standby"),
+            DeviceViewModel(R.drawable.device_image2, "Umeda", "Status: Standby")
+        )
 
         val adapter = DeviceListAdapter(data)
 
-        rvDevice.adapter = adapter
+        val rvDevice = binding.rvDevice
+
+        //set click listener
+        adapter.listener = this
+
+        rvDevice.apply {
+            this.adapter = adapter
+            this.layoutManager = LinearLayoutManager(this@HomeActivity)
+        }
 
         binding.btnSetting.setOnClickListener {
             val intent = Intent(this, GeneralSettingActivity::class.java)
@@ -36,5 +40,13 @@ class HomeActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+
+
+    }
+
+    override fun onItemClicked(view: View, device: DeviceViewModel) {
+        val intent = Intent(this, DeviceActivity::class.java)
+
+        startActivity(intent)
     }
 }
