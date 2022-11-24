@@ -35,6 +35,10 @@ class PlanActivity : AppCompatActivity() {
             this.layoutManager = LinearLayoutManager(this@PlanActivity)
         }
 
+        binding.btnAbout.setOnClickListener {
+            AboutFragment().show(supportFragmentManager, "TAG")
+        }
+
         binding.btnBack.setOnClickListener {
             finish()
         }

@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.iotmacrochallange.databinding.ActivityDeviceBinding
+import com.google.android.material.bottomsheet.BottomSheetDialog
 
 class DeviceActivity : AppCompatActivity() {
 
@@ -54,6 +55,16 @@ class DeviceActivity : AppCompatActivity() {
             val intent = Intent(this, ScheduleActivity::class.java)
 
             startActivity(intent)
+        }
+
+        binding.btnSpeed.setOnClickListener {
+            var fanSpeedFragment = FanSpeedFragment()
+            fanSpeedFragment.show(supportFragmentManager, "TAG")
+        }
+
+        binding.btnWater.setOnClickListener {
+            var waterLevelFragment = WaterLevelFragment()
+            waterLevelFragment.show(supportFragmentManager, "TAG")
         }
     }
 }
