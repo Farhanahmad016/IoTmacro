@@ -1,61 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<layout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginBottom="12dp"
-    android:background="@drawable/list_item_border"
-    android:padding="12dp">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/device_image"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:civ_border_width="1dp"
-        app:civ_border_color="@color/white"
-        android:background="@drawable/device_image_border"
-        />
-
-    <LinearLayout
-        app:layout_constraintStart_toEndOf="@id/device_image"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginStart="8dp"
-        android:layout_width="wrap_content"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/list_device"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/list_item_border"
+        android:padding="12dp">
 
-        <TextView
-            android:id="@+id/tv_deviceName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Device Name"
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/device_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:textColor="@color/white"
-            android:textSize="20sp"/>
+            app:civ_border_width="1dp"
+            app:civ_border_color="@color/white"
+            android:background="@drawable/device_image_border"
+            />
 
-        <TextView
-            android:id="@+id/tv_DeviceStatus"
+        <LinearLayout
+            app:layout_constraintStart_toEndOf="@id/device_image"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="8dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Status:"
-            android:textColor="@color/white"
-            android:textStyle="italic"
-            android:textSize="16sp"/>
+            android:orientation="vertical">
 
-    </LinearLayout>
-    
-    <Button
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:background="@drawable/button_start"/>
+            <TextView
+                android:id="@+id/tv_deviceName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Device Name"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:id="@+id/tv_DeviceStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status:"
+                android:textColor="@color/white"
+                android:textStyle="italic"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <Button
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_start"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
