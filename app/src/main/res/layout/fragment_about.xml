@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#BFFFFFFF"
+    android:orientation="vertical"
+    android:paddingVertical="24dp"
+    android:gravity="center"
+
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="About Plan"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingVertical="24dp"
+        android:paddingHorizontal="80dp"
+        android:text="The Robot will only clean all selected rooms. If none was selected, The Robot will automatically clean the entire house."
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

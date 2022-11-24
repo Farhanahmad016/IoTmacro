@@ -18,10 +18,10 @@ class UsageActivity : AppCompatActivity() {
 
         val usage = listOf(
             UsageViewModel(R.drawable.usage1, "70%", "Fill the bag", "Fix about 2 hours"),
-            UsageViewModel(R.drawable.usage2, "80%", "Fill the bag", "Fix about 1 hours"),
-            UsageViewModel(R.drawable.usage3, "85%", "Fill the bag", "Fix about 2 hours"),
-            UsageViewModel(R.drawable.usage4, "85%", "Fill the bag", "Fix about 5 hours"),
-            UsageViewModel(R.drawable.usage5, "85%", "Fill the bag", "Fix about 3 hours"),
+            UsageViewModel(R.drawable.usage2, "80%", "Filter", "Fix about 1 hours"),
+            UsageViewModel(R.drawable.usage3, "85%", "Main brush", "Fix about 2 hours"),
+            UsageViewModel(R.drawable.usage4, "85%", "Battery", "Fix about 5 hours"),
+            UsageViewModel(R.drawable.usage5, "85%", "Water capacity", "Fix about 3 hours"),
         )
 
         val adapter = UsageListAdapter(usage)
