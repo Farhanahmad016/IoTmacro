@@ -5,4 +5,4 @@ data class UsageViewModel (
     val percentage: String,
     val info: String,
     val fix: String
-        )
+)
