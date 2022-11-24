@@ -41,14 +41,14 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".ScheduleActivity"
+            android:name=".AddScheduleActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".ScedulejamActivity"
+            android:name=".ScheduleActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

@@ -104,6 +104,14 @@
             android:textColor="@color/grey"
             android:textSize="12dp" />
 
+        <Switch
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:id="@+id/sw_sound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
     </RelativeLayout>
 
     <View
@@ -138,6 +146,14 @@
             android:text="Dark"
             android:textColor="@color/grey"
             android:textSize="12dp" />
+
+        <Switch
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:id="@+id/sw_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
 
     </RelativeLayout>
 

@@ -105,6 +105,14 @@
             android:textColor="@color/grey"
             android:textSize="12dp" />
 
+        <Switch
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:id="@+id/sw_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
     </RelativeLayout>
 
     <View

@@ -49,5 +49,11 @@ class DeviceActivity : AppCompatActivity() {
 
             startActivity(intent)
         }
+
+        binding.btnSchedule.setOnClickListener {
+            val intent = Intent(this, ScheduleActivity::class.java)
+
+            startActivity(intent)
+        }
     }
 }

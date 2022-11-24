@@ -3,9 +3,9 @@ package com.example.iotmacrochallange
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class ScedulejamActivity : AppCompatActivity() {
+class AddScheduleActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_scedulejam)
+        setContentView(R.layout.activity_add_schedule)
     }
 }
