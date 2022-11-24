@@ -43,7 +43,5 @@ class DeviceListAdapter(private val device: List<DeviceViewModel>) : RecyclerVie
 
     }
 
-    // return the number of the items in the list
-
 
 }

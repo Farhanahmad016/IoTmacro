@@ -2,16 +2,15 @@
 <layout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/dark_blue"
         android:padding="24dp"
-        tools:context=".MapActivity">
+        tools:context=".RemoteActivity">
 
         <RelativeLayout
-            android:id="@+id/ab_usage"
+            android:id="@+id/ab_plan"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_width="match_parent"
@@ -26,33 +25,34 @@
                 android:background="@drawable/back" />
 
             <TextView
-                android:id="@+id/tv_maps"
+                android:id="@+id/tv_plan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="Maps"
+                android:text="Plan"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
         </RelativeLayout>
 
-        <ImageView
-            android:id="@+id/img_map"
+        <TextView
+            android:id="@+id/tv_select"
+            android:layout_below="@id/ab_plan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:layout_below="@id/ab_usage"
-            android:layout_centerHorizontal="true"
-            android:src="@drawable/map_image"/>
-
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="Select Room"/>
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_map"
+            android:id="@+id/rv_room"
             android:layout_marginTop="24dp"
-            android:layout_below="@id/img_map"
+            android:layout_below="@id/tv_select"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:itemCount="5"
-            tools:listitem="@layout/list_map"/>
+            tools:listitem="@layout/list_room"/>
 
     </RelativeLayout>
+
 </layout>
